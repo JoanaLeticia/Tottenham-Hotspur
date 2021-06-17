@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'StretchPro';
+    src: url(fonts/StretchPro.otf);
+}
+@font-face {
+    font-family: 'Akira';
+    src: url(fonts/Akira.woff);
+}
+@font-face {
+    font-family: 'Apex New Book';
+    src: url(fonts/apex-new-font/ApexNew-Book.woff) ;
+}
+@font-face {
+    font-family: 'Apex New Medium';
+    src: url(fonts/apex-new-font/ApexNew-Medium.woff);
+}
+@font-face {
+    font-family: 'Roboto Black';
+    src: url(fonts/Roboto-Black.woff);
+}
+
+/* barra de navegação */
+.nav-container {
+    max-width: 2560px;
+    background-image: radial-gradient(circle, #e7e7e7, #ececec);
+    width: auto;
+    margin: -8px;
+    position: relative;
+    height: 150px;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.5);
+}
+#logo-nav{
+    margin-top: 25px;
+    margin-left: 50px;
+    position: relative;
+}
+.nav-container ul{
+    float: right;
+    height: 150px;
+    line-height: 150px;
+    margin: 0;
+    margin-right: 50px;
+}
+.nav-container li{
+    margin: 0 15px;
+    float: left;
+    list-style: none;
+    font-family: 'Rockford Sans Light';
+    font-size: 17px;
+}
+.nav-container li a{
+    text-decoration: none;
+    color: #001c58;
+    transition-duration: 0.7s;
+}
+.nav-container li a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+body{
+    background-image: radial-gradient(circle, #e8e7e8, #eaeaea);
+    background-attachment: fixed;
+}
+/* corpo principal */
+
+main{
+    background-color: #f0f0f0;
+    width: 1035px;
+    margin: auto;
+    padding: 150px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.container-principal{
+    position: relative;
+    text-decoration: center;
+    color: white;
+    margin: -150px -150px -0px -150px;
+}
+.title-principal{
+    position: absolute;
+    top: 90px;
+    left: 130px;
+    font-family: 'StretchPro';
+    font-size: 45px;
+}
+.nav-principal{
+    position: absolute;
+    bottom: 80px;
+    right: 100px;
+    font-family: 'StretchPro';
+}
+.nav-principal a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+.nav-principal a:hover{
+    font-size: 18px;
+}
+
+h1{
+    font-family: 'Roboto Black';
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #001c58;
+}
+.news-info {
+    margin-top: 40px;
+    border-style: solid;
+    padding-bottom: 10px;
+    border-width: 0px 0px 3px 0px;
+    max-width: 100%;
+    border-color: #001c58;
+}
+.news-time {
+    font-family: 'Apex New Book';
+    margin-bottom: 7px;
+}
+.news-poster {
+    font-family: 'Apex New Book';
+}
+p{
+    font-family: 'Apex New Book';
+    color: #4b4b4b;
+    text-align: justify;
+    margin-top: 30px;
+    font-size: 16px;
+}
+iframe {
+    background-color: #001c58;
+    margin-left: -150px;
+    padding-left: 30%;
+    padding-right: 29.5%;
+}
+.rafa-anfield {
+    max-width: 719px;
+    background-color: #001c58;
+    margin-left: -150px;
+    padding-left: 30%;
+    padding-right: 29.5%;
+}
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: -20px;
+}
+li{
+    margin-right: 30px;
+}
+ul .pic a{
+    transition-duration: 0.3s;
+}
+ul .pic a:hover{
+    background-color: #001c58;
+    padding-bottom: 5px;
+}
+
+footer{
+    margin: -8px;
+    background-color: white;
+    padding: 80px;
+    text-align: center;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .social-media{
+    display: inline-flex;
+    text-align: center;
+  }
+  .social-media li{
+    margin-right: 60px;
+  }
+
+  .creditos{
+    text-align: center;
+    background-color: #001c58;
+    color: white;
+    font-family: 'Stretch Pro';
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 23px;
+    margin: -8px;
+  }
