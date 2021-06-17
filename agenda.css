@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'StretchPro';
+    src: url(fonts/StretchPro.otf);
+}
+@font-face {
+    font-family: 'Akira';
+    src: url(fonts/Akira.woff);
+}
+@font-face {
+    font-family: 'Apex New Book';
+    src: url(fonts/apex-new-font/ApexNew-Book.woff) ;
+}
+@font-face {
+    font-family: 'Apex New Medium';
+    src: url(fonts/apex-new-font/ApexNew-Medium.woff);
+}
+@font-face {
+    font-family: 'Apex New Bold';
+    src: url(fonts/apex-new-font/ApexNew-Bold.woff);
+}
+
+/* barra de navegação */
+.nav-container {
+    max-width: 2560px;
+    background-image: radial-gradient(circle, #e7e7e7, #ececec);
+    width: auto;
+    margin: -8px;
+    position: relative;
+    height: 150px;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.5);
+}
+#logo-nav{
+    margin-top: 25px;
+    margin-left: 50px;
+    position: relative;
+}
+.nav-container ul{
+    float: right;
+    height: 150px;
+    line-height: 150px;
+    margin: 0;
+    margin-right: 50px;
+}
+.nav-container li{
+    margin: 0 15px;
+    float: left;
+    list-style: none;
+    font-family: 'Rockford Sans Light';
+    font-size: 17px;
+}
+.nav-container li a{
+    text-decoration: none;
+    color: #001c58;
+    transition-duration: 0.7s;
+}
+.nav-container li a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+body{
+    background-image: radial-gradient(circle, #e8e7e8, #eaeaea);
+    background-attachment: fixed;
+}
+/* corpo principal */
+
+main{
+    background-color: #f0f0f0;
+    max-width: 1035px;
+    margin: auto;
+    padding: 150px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.container-principal{
+    position: relative;
+    text-decoration: center;
+    color: white;
+    margin: -150px -150px -0px -150px;
+}
+.title-principal{
+    position: absolute;
+    top: 90px;
+    left: 130px;
+    font-family: 'Akira';
+    font-size: 60px;
+}
+.nav-principal{
+    font-size: 14pt;
+    position: absolute;
+    bottom: 80px;
+    left: 150px;
+    font-family: 'Apex New Book';
+}
+.nav-principal a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+.nav-principal a:hover{
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Akira';
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #001c58;
+}
+.evento-container {
+    display: inline-flex;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: rgb(161, 161, 161);
+    padding-right: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    margin-top: 25px;
+}
+.data {
+    display: inline-flex;
+    font-family: 'Apex New Medium';
+    padding: 15px 50px;
+    width: 44%;
+}
+.club-img {
+    width: 18%;
+}
+.nome-oponente {
+    width: 38%;
+    padding: 15px 30px;
+    font-family: 'Apex New Book';
+}
+.match-class {
+    font-family: 'Apex New Bold';
+    padding:15px 20px 15px 60px;
+    width: 4%;
+}
+.match-type {
+    font-family: 'Apex New Book';
+    margin-top: 5px;
+    margin-right: 40px;
+    margin-left: 20px;
+    padding: 10px;
+    margin-bottom: 27px;
+    background-color: #001c58;
+    color: white;
+    border-radius: 20px;
+}
+.match-type-img {
+    margin: 5px 35px 0px 20px;
+}
+.resultado {
+    width: 20%;
+    margin: -3px;
+    padding: 17px 30px;
+    padding-right: 10px;
+    margin-bottom: 23px;
+    font-family: 'Apex New Medium';
+    background-color: #afbfe2;
+    margin-right: 40px;
+}
+
+.evento-link a{
+    text-decoration: none;
+    font-family: 'Apex New Book';
+    color: black;
+    transition-duration: 0.5s;
+    text-align: center;
+}
+.evento-link a:hover {
+    font-family: 'Apex New Bold';
+    font-size: 20px;
+    text-align: center;
+}
+.evento-link{
+    display: inline-flex;
+    padding: 15px 10px;
+    text-align: center;
+}
+#mes {
+    font-family: 'StretchPro';
+    font-size: 25px;
+    color: #001c58;
+}
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: -20px;
+}
+li{
+    margin-right: 30px;
+}
+ul .pic a{
+    transition-duration: 0.3s;
+}
+ul .pic a:hover{
+    background-color: #001c58;
+    padding-bottom: 5px;
+}
+
+footer{
+    margin: -8px;
+    background-color: white;
+    padding: 80px;
+    text-align: center;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .social-media{
+    display: inline-flex;
+    text-align: center;
+  }
+  .social-media li{
+    margin-right: 60px;
+  }
+  
+  .creditos{
+    text-align: center;
+    background-color: #001c58;
+    color: white;
+    font-family: 'Stretch Pro';
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 23px;
+    margin: -8px;
+  }
